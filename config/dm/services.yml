@@ -1,0 +1,6 @@
+services:
+  gaAuth:
+    class: %analyticsAuthenticator.class%
+    arguments: [@gapi]
+parameters:
+  analyticsAuthenticator.class:  piGoogleAnalyticsAuthenticator
